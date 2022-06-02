@@ -9,10 +9,6 @@ const App = () => {
   let title
   let text
 
-  createEffect(() => {
-    console.log(todos())
-  })
-
   return (
     <div class={styles.App}>
       <h1>Todo's</h1>
