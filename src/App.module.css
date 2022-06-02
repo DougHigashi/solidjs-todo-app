@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  align-items: center;
+}
+
+.input {
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 2px;
+}
+
+.card {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 15px;
+  margin-top: 0.5%;
+  max-width: 20%;
+  overflow-wrap: break-word;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardGroup {
+  justify-content: center;
+  flex-direction: column-reverse;
+  flex: 1;
+}
