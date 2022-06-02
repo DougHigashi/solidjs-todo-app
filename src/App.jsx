@@ -16,7 +16,7 @@ const App = () => {
       <input ref={text} type="text" placeholder="Description" class={styles.input} />
 
       <button onClick={() => {
-        setTodos([...todos(), {title: title.value, description: text.value }]);
+        setTodos([...todos(), { title: title.value, description: text.value }]);
         text.value = ''; title.value = ''
       }}
         class={styles.input}>
@@ -29,14 +29,13 @@ const App = () => {
           {(todo) =>
             <>
               <Card title={todo.title} desc={todo.description}>
-                <button onClick={() => {
-                  let i = todos().indexOf(todo)
-                  todos().splice(i, 1)
-                  setTodos([...todos()])
-                }}>x</button>
-                
+                <button class={styles.button}
+                  onClick={() => {
+                    let i = todos().indexOf(todo)
+                    todos().splice(i, 1)
+                    setTodos([...todos()])
+                  }}>x</button>
               </Card>
-
             </>
           }
         </For>
