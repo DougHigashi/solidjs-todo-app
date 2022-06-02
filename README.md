@@ -1,5 +1,7 @@
 # Todo App em Solid-js
 
+![Todo app running](https://cdn.discordapp.com/attachments/918654860738560020/982052631591678002/unknown.png)
+
 ## Aplicação de todo's desenvolvida com SolidJS
 É possível adicionar tarefas com um título e uma descrição. Tarefas já concluídas podem ser removidas clicando no botão de remover da tarefa respectiva.
 
